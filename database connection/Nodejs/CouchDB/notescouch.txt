@@ -1,0 +1,65 @@
+ip : 192.168.50.11
+port : 8765
+username : d_couchdb
+db_type : COUCH
+password : couchdb123
+
+
+
+
+  connection.getnanoCouchConnection(Org['COUCH_URL'])
+                .then(db => {
+                    const dbName = `pfm_${orgId}_${objectId}_audit`;
+                    db.db.create(dbName)
+                        .then(async data => {
+                            logger.debug(`designerService ::: auditDbCreation ::: Database (pfm_${orgId}_${objectId}_audit) has been created successfully`);
+                            try{
+                            let Permissions={'type':'user','admins':{'names':[Org["client_username"]]}}; 
+                            await db.relax({db:`${dbName}`,method: 'put',path:`_security`,body: Permissions}).then(res=>{
+                                    console.log("permission added",res);
+                                }).catch(e=>{
+                                    console.log(`problem with database, ${e}
+                                    dbName ==>${dbName}
+                                    `);
+                                })
+                            }catch(e){
+                            console.log("from the error values",e);
+                            }
+                            let searchDoc = {
+                                "_id": "_design/audit_search",
+                                "indexes": {
+                                  "audit_search": {
+                                    "index": "function(doc) {\r\n    index(\"default\", doc._id);\r\n    if (typeof(doc) !== 'undefined') {\r\n\r\n\r\n        if (doc.tracking_field_name !== \"\" && typeof(doc.tracking_field_name) !== 'undefined') {\r\n            index(\"tracking_field_name\", doc.tracking_field_name, {\r\n                \"store\": true\r\n            });\r\n        }\r\n        if (doc.maindoc_id !== \"\" && typeof(doc.maindoc_id) !== 'undefined') {\r\n            index(\"maindoc_id\", doc.maindoc_id, {\r\n                \"store\": true\r\n            });\r\n        }\r\n        if (doc.modifiedon !== \"\" && typeof(doc.modifiedon) !== 'undefined') {\r\n            index(\"modifiedon\", doc.modifiedon, {\r\n                \"store\": true\r\n            });\r\n        }\r\n       \r\n    }\r\n}",
+                                    "analyzer": "keyword"
+                                  }
+                                }
+                              };
+                              console.log("search doc is here fo rreference ===> ",searchDoc);
+                            let auditDB = db.use(dbName); 
+                            auditDB.insert(searchDoc)
+                            .then(data => {
+                                console.log("searchDoc data is printed here",data);
+                                resolve(data);
+                            }).catch(err => {
+                                logger.error("designerService.js: AUDITDBCREATION ==> error printed here for reference ====>",err);
+                            })
+
+
+
+                            return new Promise((resolve, reject) => {
+                                try {
+                                    let options = {
+                                        rejectUnauthorized: false
+                                    }
+                                    let isHttps = couchUrl.startsWith("https");
+                                    let agentOption = isHttps ? new https.Agent(options) :  new http.Agent(options)
+                                    if(requestDefaults){
+                                        requestDefaults['agent'] = agentOption
+                                    } else {
+                                        requestDefaults = { agent: agentOption }
+                                    }
+                                    const nano = require('nano')({ 
+                                        url : couchUrl,
+                                        requestDefaults
+                                    });
+                                    resolve(nano);

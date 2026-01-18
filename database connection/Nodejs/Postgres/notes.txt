@@ -1,0 +1,203 @@
+/**
+ * ip : 192.168.0.194
+ * port : 5757
+ * dbname : d_csp_db
+ * username : csp_dev_pg
+ * password : ws9XgGB6AdzUX5H2
+ * 500 - internal server error
+ * 200 - successfull
+ */
+
+
+helmet - As you saw here, APIs developed in Express do not involve security HTTP headers. So, default Express apps come with some security concerns.
+
+With Helmet, you can add a security layer to Node.js with just a single line of code, safeguarding your application from the most common attacks and vulnerabilities.
+
+
+Content Security Policy (CSP): Helps prevent XSS attacks by controlling the resources the client is allowed to load.
+
+X-DNS-Prefetch-Control: Controls DNS prefetching to reduce privacy concerns.
+
+Expect-CT: Enforces the use of Certificate Transparency.
+
+Strict-Transport-Security (HSTS): Forces the use of HTTPS.
+
+X-Frame-Options: Protects against clickjacking attacks by controlling if your site's content can be embedded in an iframe.
+
+X-Content-Type-Options: Prevents browsers from interpreting files as a different MIME type, which helps prevent certain types of attacks.
+
+X-Permitted-Cross-Domain-Policies: Specifies whether cross-domain requests can be made on your site, helping to control the loading of Flash and PDF files.
+
+Referrer-Policy: Controls how much referrer information should be included with requests.
+
+X-XSS-Protection: Enables the Cross-site scripting (XSS) filter in supported browsers.
+
+cors - restrict the request from all domain
+
+
+
+put - used to update all the COLUMNS
+
+patch - used to update particular fields - so it was fast when update the particular columns
+
+head - HEAD is useful for checking the existence, status, and metadata of resources without downloading the actual content.
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 May 2013 10:12:29 GMT
+ETag: "780602-4f6-4db31b2978ec0"
+Last-Modified: Thu, 25 Apr 2013 16:13:23 GMT
+Content-Length: 1270
+
+options - helps discover what HTTP methods are supported by a resource, and it plays a crucial role in CORS for cross-origin requests.
+
+HTTP/1.1 200 OK
+Allow: GET,HEAD,POST,OPTIONS,TRACE
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 May 2013 10:24:43 GMT
+Content-Length: 0
+
+const express = require('express');
+const bodyParser = require('body-parser');
+const {Pool} = require('pg');
+const dotenv = require('dotenv');
+const helmet = require('helmet');
+const cors = require('cors')
+
+dotenv.config();
+
+const app = express();
+
+app.use(helmet())
+
+app.use(cors({
+    origin:'https://example.com',
+    methods:'GET,DELETE,PUT,POST',
+    credentials:false
+}))
+
+app.use(bodyParser.json()); // used to parse the incoming request coming like json
+
+app.use(bodyParser.urlencoded({extended:true})) // used to parse the incoming request url payloads
+
+const pool  = new Pool({
+    user : process.env.DB_USER,
+    database : process.env.DB_NAME,
+    host : process.env.DB_HOST,
+    password: process.env.DB_PASSWORD,
+    port : process.env.DB_PORT
+})
+
+
+app.get('/data', async (req, res) => {
+    try {
+      const result = await pool.query('SELECT * FROM JUL15UNIVERSITY');
+      res.status(200).json(result.rows);
+    } catch (error) {
+      console.error('Database query failed', error); // Log the error for debugging
+      res.status(500).send("Cannot fetch data");
+    }
+  });
+
+
+const port = process.env.PORT || 2000
+app.listen(port,()=>{
+    console.log("node started running on port 2000");
+})
+
+
+
+
+
+/**CREATE THE TABLE **/
+
+CREATE TABLE AUG26UNIVERSITY(
+UNIVERSITYCODE INT,
+UNIVERSITYNAME VARCHAR(256),
+UNIVERSITYADDRESS VARCHAR(256),
+UNIVERSITY_NUMBER INT,
+UNIVERSITY_LOCATION VARCHAR,
+UNIVERSITY_PHONE INTEGER,
+UNIVERSITY_DATE DATE,
+UNIVERSITY_STATUS BOOLEAN,
+UNIVERSITY_ALTERNATE_PHONE NUMERIC,
+UNIVERSITY_TIME TIME,
+UNIVERSITY_UUID UUID DEFAULT gen_random_uuid(),
+UNIVERSITY_LOOKUP VARCHAR(256),
+PRIMARY KEY (UNIVERSITYCODE)
+);
+
+CREATE TABLE AUG09(
+UNIVERSITYID INT,
+UNIVERSIRTY_NAME VARCHAR(256),
+UNIVERSITY_NUMBER NUMERIC
+);
+
+CREATE TABLE STUDENT (
+    STUDENTID INT PRIMARY KEY,
+    STUDENTNAME VARCHAR(100),
+    STUDENTAGE INT,
+    UNIVERSITYCODE INT,
+    FOREIGN KEY (UNIVERSITYCODE) REFERENCES UNIVERSITY(UNIVERSITYCODE)
+);
+/**
+Add new column
+rename the existing column
+drop the column
+delete the table
+delete the rows(records)
+**/
+ALTER TABLE AUG26UNIVERSITY ADD COLUMN UNVERSITY_EMAIL VARCHAR(256);
+ALTER TABLE AUG26UNIVERSITY ADD COLUMN UNIVESITY_CEO VARCHAR(256);
+ALTER TABLE AUG26UNIVERSITY RENAME COLUMN UNIVESITY_CEO TO UNIVERSITY_CEO;
+ALTER TABLE AUG26UNIVERSITY DROP COLUMN UNIVERSITY_CEO;
+DROP TABLE IF EXISTS AUG09;
+TRUNCATE TABLE AUG09;
+SELECT * FROM AUG09;
+
+/**
+adding constraints(rule) to the table for specific column
+priamry constraints
+foreign key constraints
+
+**/
+
+ALTER TABLE AUG09 ADD CONSTRAINT pk_universityid PRIMARY KEY (UNIVERSITYID);
+
+/*SELECT */
+
+SELECT * FROM AUG26UNIVERSITY;
+SELECT * FROM AUG26STUDENT;
+SELECT UNIVERSITYNAME FROM AUG26UNIVERSITY;
+SELECT * FROM AUG26UNIVERSITY WHERE UNIVERSITYCODE = 1;
+SELECT column_name, data_type 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE UPPER(TABLE_NAME) = 'AUG26UNIVERSITY';
+
+
+/*UPDATE*/
+
+UPDATE AUG26UNIVERSITY SET UNIVERSITYADDRESS = 'MAD' WHERE UNIVERSITYCODE = '5';
+UPDATE AUG26UNIVERSITY SET UNIVERSITYADDRESS = 'MADRAS',UNIVERSITY_NUMBER = 2000 WHERE UNIVERSITYCODE = '4';
+
+UPDATE aug26university
+SET
+    universityaddress =
+        CASE
+            WHEN universitycode = '6' THEN
+                'MADURAI'
+            WHEN universitycode = '8' THEN
+                'TTHANJAVUR'
+        END
+WHERE
+    universitycode IN (
+        '6',
+        '8'
+    );
+    
+/*INSERT*/
+
+INSERT INTO AUG26STUDENT (STUDENT_ID) VALUES (1);
+
+
