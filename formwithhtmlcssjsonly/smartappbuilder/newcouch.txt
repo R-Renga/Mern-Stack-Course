@@ -1,0 +1,38 @@
+sessionvalues,
+couch_info.COUCH_URL = 'https' + '://' + 'd_couchdb' + ':' + 'couchdb123' + '@' + 'qxchperfchdbtest1.chainsys.com' + ':' + 8765;
+
+appcontainercontroller
+  await nanoDb.auth('d_couchdb', 'couchdb123', function (err, body, headers) {
+
+temp["credentials"] = Buffer.from("d_couchdb" + ':' + "couchdb123").toString('base64')
+
+apputility
+  if (response['status'] === 'SUCCESS') {
+                    const simpleCrypto = new SimpleCrypto(postData.inputparams['sessionToken']);
+                    let credentials_proxy: any = simpleCrypto.decrypt(response["couchInfo"]);
+                    credentials_proxy = JSON.parse(credentials_proxy);
+                    //Socket server url
+                    this.socketServerURL = response['socketServerUrl']
+                    this.dbConfiguration["credentials"] = credentials_proxy["credentials"];
+                    this.dbConfiguration.remoteDbUrl = 'https://qxchperfchdbtest1.chainsys.com:8765' + '/';
+
+                    //attachment dbconfiguration assignment
+                    this.attachmentdbConfiguration.remoteDbUrl = 'https://qxchperfchdbtest1.chainsys.com:8765' + '/';
+                    this.attachmentdbConfiguration["credentials"] = credentials_proxy["credentials"];
+
+                    //cspfm execution dbconfiguration assigment
+                    this.cspfmexecutionPouchdbConfiguration.remoteDbUrl = 'https://qxchperfchdbtest1.chainsys.com:8765' + '/';
+                    this.cspfmexecutionPouchdbConfiguration["credentials"] = credentials_proxy["credentials"]
+
+                    //formula dbconfiguration assignment
+                    this.formuladbConfiguration.remoteDbUrl = 'https://qxchperfchdbtest1.chainsys.com:8765' + '/';
+                    this.formuladbConfiguration["credentials"] = credentials_proxy["credentials"]
+
+                    //metadata dbconfiguration assigment
+                    this.metaDbConfig.remoteDbUrl = 'https://qxchperfchdbtest1.chainsys.com:8765' + '/';
+                    this.metaDbConfig["credentials"] = credentials_proxy["credentials"]
+                    this.initNotification();
+                    return Promise.resolve(this.checkAppId(this.isMobile));
+                }
+
+

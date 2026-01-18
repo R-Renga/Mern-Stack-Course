@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" id="input" placeholder="Type a message">
+        <button type="submit">Send</button>
+    </form>
+    <ul id="messages"></ul>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = window.io();
+        const form = document.getElementById('form');
+        const input = document.getElementById('input');
+        const messages = document.getElementById('messages');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (input.value) { // Check if input is not empty
+                console.log(input.value);
+                // const li = document.createElement('li'); // Create a new list item
+                // li.textContent = input.value; // Set input value as text
+                // messages.appendChild(li); // Append to the messages list
+                    
+                socket.emit('chat message',input.value);
+                input.value = ''; // Clear input field
+            }
+        });
+
+        socket.on('chat message',(msg)=>{
+              const li = document.createElement('li'); // Create a new list item
+                li.textContent = msg; // Set input value as text
+                messages.appendChild(li); // Append to the messages list
+                    
+        })
+    </script>
+</body>
+</html>

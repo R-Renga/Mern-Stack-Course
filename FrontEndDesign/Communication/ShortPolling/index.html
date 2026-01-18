@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Polling Example</title>
+</head>
+<body>
+    <h1>Short Polling</h1>
+    <div id="data-container"></div>
+
+    <script>
+
+    let intervalId;
+        async function getData() {
+            try {
+                const result = await fetch('/getdata');
+                const data = await result.json();
+                document.getElementById('data-container').innerHTML = data.todos.map(todo => `<p>${todo.todo}</p>`).join('');
+            } catch (error) {
+                console.log(error);
+                clearInterval(intervalId)
+            }
+        }
+
+        // Polling every 5 seconds
+       
+        function  shortPolling(){
+            intervalId = setInterval(getData, 5000);
+        }
+
+        
+    </script>
+</body>
+</html>

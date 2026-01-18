@@ -1,0 +1,40 @@
+{
+    "orgId": 15,
+    "filterCriteria": {
+    },
+    "objectHierarchyJSON": {
+        "objectName": "apiobja1",
+        "objectType": "PRIMARY",
+        "relationShipType": "",
+        "fieldId": "0",
+        "objectId": "185593",
+        "fieldsArray": [
+            {
+                "fieldName": "empid",
+                "fieldType": "TEXT"
+            },
+            {
+                "fieldName": "name",
+                "fieldType": "TEXT"
+            },
+            {
+                "fieldName": "email",
+                "fieldType": "EMAIL"
+            },
+            {
+                "fieldName": "salary",
+                "fieldType": "NUMBER"
+            }
+        ],
+        "childObject": [],
+        "formulaField": [{
+            "fieldName": "ctc"
+        }],
+        "rollupField": [{
+            "fieldName": "totalcost"
+        }]
+    },
+    "IncreamentalColumn": "lastmodifiedon",
+    "IncreamentalValue": 0,
+    "isIncremendal": false
+}

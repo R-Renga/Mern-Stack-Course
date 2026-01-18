@@ -1,0 +1,123 @@
+
+TICKET_2721_2023
+CR_855_2023
+
+
+1.On the page after approve not able to edit the view page.
+2.notification test.
+3.edit in more action test
+4.one to one not changed to orange
+5.lookup needs to be readonly
+6.alertmsg
+7.after completed WF not to be edited
+
+
+
+
+Jun21_country - done
+Jun21_organization
+Jun21_university
+Jun21_student - onetomany - pfm1361
+jun21_college - onetomany
+jun21_team - onetoone  - pfm1362
+jun21_child - onetoone
+jun21_department - lookup - done
+
+
+jun22_numericparent - done
+jun22_numericchild
+
+jun22_multiapprovesingle
+jun22_multiapprovesinglechild
+
+jun22_parallelparent
+jun22_parallelchild
+
+jun22_hierarchyparent
+jun22_hierarchychild
+
+jun22_multistatusparent
+jun22_multistatuschild
+
+jun22_criteriaparent
+jun22_criteriachild
+
+
+
+jun22_numericmultipage
+
+jun22_multiapprovepage
+
+jun22_parallelmulti
+
+jun22_hierarchypage
+
+jun22_multistatuspage
+
+jun22_criteriapage
+
+
+jun21_multilineuniversity
+
+jun21_entrypageuni
+
+jun21_listpageuniv
+
+jun21_viewpageuni
+
+
+jun21_inlineeditstatus
+
+
+jun21_conditionalfromat
+
+jun21_conditionalvalidation
+
+jun21_notificationpush
+
+jun21_notificationpushchi
+
+jun21_notificationbrowser
+
+jun21_notificationemail
+
+jun21_autoapprovalcase
+
+jun21_childchildline
+
+
+Jul2_criteria
+Jul3_criteria
+Jul3_crichild
+
+jul3_multilineentrycri
+jul3_listpageuni
+jul3_notimulti
+
+jul3_notiiiimulti
+
+jul3_notiilist
+
+
+TaskUpdate :
+Testing going for list section in multiline entry for statusworkflow.Faced four issues. source shared to renis. he is looking on that.
+1.In list section statusworkflow in lookup fields needs to be Readonly and but it was editable
+2.alert msg need to be shown after edit the list section statusworkflow after status changed to initiate
+3.After WF field process completed, its not to be editable.but it was editable in list section.
+4.After click the initiate status, live listener case not working for one to one childs WF fields - still
+
+
+1.edit allow for listsection
+
+
+
+
+
+
+
+
+
+
+
+
+

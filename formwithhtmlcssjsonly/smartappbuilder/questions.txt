@@ -1,0 +1,70 @@
+1.shards
+2.clusters
+3.snowflake
+4.micro partition
+5.group by
+6.functions in sql
+7.sql queries
+8.partition by
+9.relational and non - relational - done
+10.query
+11.how indexing work in mongodb and couchdb
+12.active task
+13.monitoring and performance
+14.security
+15.Aggregation Framework
+16.backup and restore
+17.how to store image,videos and large files
+18.map reduce
+19.name some other couchdb
+20.view documents,search documents,validation documents - code
+21.collections
+22.https://www.youtube.com/watch?v=ack9Eb7Hvqk
+23.nodejs is single thread or multitheread?
+24.what is rest api?
+25.what is restful api?
+25.how many databases and design documents we have?
+26.What is Browser?
+27.What is engine?
+28.what is socket?
+29.what is cors?
+30.diff between json and object?
+31.what is http methods?
+32.what is event loop?
+33.what is middleware?
+34.what is jsonwebtoken?
+35.what is index.js?
+36.what is payload?
+37.what is linux?
+38.what is chunk?
+39.package.json need to node
+40.how to push specific source from git?
+41.sso
+42.ssh
+43.tag - git
+44.Gran - multiple node
+45.child process
+46.toast alert
+47.Docker
+48.deploy the server on cloud
+49.SSL encryption
+50.proxy server
+51.context path
+52.2020 login/apps 
+53/listener in 2020
+54.mtls,ssl
+55.csp
+56.referrer policy
+57.The Strict-Transport-Security header
+58.The X-Content-Type-Options header
+59.The X-Frame-Options header - click jacking attacks
+60.user bundling
+61.field update
+62.middleware
+63.Designer calling
+64.ssl certificate problem
+65.cluster/multiplethread/worker/childprocess/sinle
+66.linux/linux commands
+67.userbundling
+68.global declartion
+69.datamart

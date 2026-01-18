@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>server side events</title>
+</head>
+<body>
+    <h1>server side events example</h1>
+    <script>
+        const eventSource = new EventSource('/sse');
+
+        eventSource.onmessage = (event) =>{
+            console.log("newwww",event.data);
+        }
+
+    </script>
+</body>
+</html>

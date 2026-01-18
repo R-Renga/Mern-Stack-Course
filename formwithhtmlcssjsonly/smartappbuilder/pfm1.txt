@@ -1,0 +1,729 @@
+[2025-03-04T09:58:16.132] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  Request Recieved
+[2025-03-04T09:58:16.132] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] request check=> false
+[2025-03-04T09:58:16.156] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  Request Recieved
+[2025-03-04T09:58:16.132] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] status else block=> true
+[2025-03-04T09:58:16.156] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] request check=> true
+[2025-03-04T09:58:16.147] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection seven obtained
+[2025-03-04T09:58:16.156] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] status if Block=> true
+[2025-03-04T09:58:16.352] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection six obtained
+[2025-03-04T09:58:16.516] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection six closed in finally
+[2025-03-04T09:58:16.525] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  FinalBlock connection closed
+[2025-03-04T09:58:16.545] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  FinalBlock connection closed
+[2025-03-04T09:58:16.596] [DEBUG] 30_pfmTocouchLog - requestProcessData==> []
+[2025-03-04T09:58:16.596] [DEBUG] 30_pfmTocouchLog - syncRequestHandler :: isProcessFlag true
+[2025-03-04T09:58:16.596] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:16.596] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:16.597] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:16.598] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:16.692] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100296692
+[2025-03-04T09:58:16.693] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:16.706] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9541.json
+[2025-03-04T09:58:16.745] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:16.746] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:16.746] [DEBUG] 30_pfmTocouchLog - 53355
+[2025-03-04T09:58:16.747] [DEBUG] 30_pfmTocouchLog - pfm_csp_9541
+[2025-03-04T09:58:16.747] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:16.748] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:16.748] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9541 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9541_id LIMIT 500
+[2025-03-04T09:58:16.836] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:16.836] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:16.836] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:16.839] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:16.839] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:16.839] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:16.841] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:16.841] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:16.894] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 5
+[2025-03-04T09:58:16.894] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:16.895] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three obtained
+[2025-03-04T09:58:16.907] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  Request Recieved
+[2025-03-04T09:58:16.907] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] request check=> true
+[2025-03-04T09:58:16.908] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  GLOBALVARIABLE['pfmtoCouchRequestHandler'] status if Block=> true
+[2025-03-04T09:58:16.946] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: isErrorDataExist :: Check Completed
+[2025-03-04T09:58:16.947] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three is closed in finally
+[2025-03-04T09:58:16.948] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four obtained
+[2025-03-04T09:58:16.948] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five obtained
+[2025-03-04T09:58:17.038] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five closed 1
+[2025-03-04T09:58:17.039] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:17.179] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  FinalBlock connection closed
+[2025-03-04T09:58:17.208] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_controller.js ::  FinalBlock connection closed
+[2025-03-04T09:58:17.224] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:17.527] [DEBUG] 30_pfmTocouchLog - INserted into couchdb....... 53355
+[2025-03-04T09:58:17.528] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before Bulk update query execution
+[2025-03-04T09:58:17.769] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After Bulk update query execution
+[2025-03-04T09:58:17.769] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  CouchId and RevId updated successfully
+[2025-03-04T09:58:17.770] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before updating status count for completed records
+[2025-03-04T09:58:17.771] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:18.008] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:18.009] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After updating status count for completed records
+[2025-03-04T09:58:18.009] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four closed 1
+[2025-03-04T09:58:18.010] [DEBUG] 30_pfmTocouchLog - pfmObjectKey :: value {
+  '1': { fieldHistoryTracking: true },
+  '2': { fieldHistoryTracking: true },
+  '3': { fieldHistoryTracking: true },
+  '4': { fieldHistoryTracking: true },
+  '5': { fieldHistoryTracking: true },
+  success_count: 0,
+  isBulkStart: 'Y'
+}
+[2025-03-04T09:58:18.011] [DEBUG] 30_pfmTocouchLog - functionalFlag.length :: value 0
+[2025-03-04T09:58:18.011] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isProcessCompleted :: one true
+[2025-03-04T09:58:18.029] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:18.029] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:18.029] [DEBUG] 30_pfmTocouchLog - 53355
+[2025-03-04T09:58:18.029] [DEBUG] 30_pfmTocouchLog - pfm_csp_9541
+[2025-03-04T09:58:18.029] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:18.030] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:18.030] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9541 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9541_id LIMIT 500
+[2025-03-04T09:58:18.067] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:18.067] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:18.067] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:18.068] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:18.068] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:18.068] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:18.069] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:18.069] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:18.112] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:18.114] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:18.114] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:18.334] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:18.334] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:18.334] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:18.334] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :3: Done
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100298335
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 1643
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:18.335] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:18.336] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:18.431] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:18.432] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53281',
+    table_name: 'pfm_csp_9521',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098734414',
+    reason: null,
+    request_status_count: '{"pfm_csp_9521":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:18.432] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:18.432] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:18.432] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:18.433] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:18.433] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:18.595] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100298595
+[2025-03-04T09:58:18.595] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:18.601] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9521.json
+[2025-03-04T09:58:18.618] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:18.618] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:18.618] [DEBUG] 30_pfmTocouchLog - 53281
+[2025-03-04T09:58:18.618] [DEBUG] 30_pfmTocouchLog - pfm_csp_9521
+[2025-03-04T09:58:18.618] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:18.618] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:18.619] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9521 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9521_id LIMIT 500
+[2025-03-04T09:58:18.657] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:18.657] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:18.657] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:18.658] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:18.658] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:18.658] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:18.659] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:18.659] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:18.720] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 17
+[2025-03-04T09:58:18.720] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:18.721] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three obtained
+[2025-03-04T09:58:18.767] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: isErrorDataExist :: Check Completed
+[2025-03-04T09:58:18.767] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three is closed in finally
+[2025-03-04T09:58:18.768] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four obtained
+[2025-03-04T09:58:18.768] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five obtained
+[2025-03-04T09:58:18.876] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five closed 1
+[2025-03-04T09:58:18.876] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:19.022] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:19.319] [DEBUG] 30_pfmTocouchLog - INserted into couchdb....... 53281
+[2025-03-04T09:58:19.319] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Couch response error :: pfmid =37 ==>{"id":"pfm9521_2_72b9d5b85c023fd40ef4eec940c96fdc","error":"forbidden","reason":{"validationFailureSet":[{"fieldDisplayName":"Num","fieldName":"num","fieldType":"NUMBER","faildReasons":[{"fmg":"Num should not be zero.","VS":{"fmg":"notZero"}}]}]}}
+[2025-03-04T09:58:19.320] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Error data inserted in COUCH SYNC ERROR
+[2025-03-04T09:58:19.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Couch response error :: pfmid =38 ==>{"id":"pfm9521_2_72b9d5b85c023fd40ef4eec940c97a0f","error":"forbidden","reason":{"validationFailureSet":[{"fieldDisplayName":"Num","fieldName":"num","fieldType":"NUMBER","faildReasons":[{"fmg":"Num should not be zero.","VS":{"fmg":"notZero"}}]}]}}
+[2025-03-04T09:58:19.333] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Error data inserted in COUCH SYNC ERROR
+[2025-03-04T09:58:19.333] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Couch response error :: pfmid =39 ==>{"id":"pfm9521_2_72b9d5b85c023fd40ef4eec940c97e76","error":"forbidden","reason":{"validationFailureSet":[{"fieldDisplayName":"Num","fieldName":"num","fieldType":"NUMBER","faildReasons":[{"fmg":"Num should not be zero.","VS":{"fmg":"notZero"}}]}]}}
+[2025-03-04T09:58:19.335] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Error data inserted in COUCH SYNC ERROR
+[2025-03-04T09:58:19.336] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Couch response error :: pfmid =40 ==>{"id":"pfm9521_2_72b9d5b85c023fd40ef4eec940c97f44","error":"forbidden","reason":{"validationFailureSet":[{"fieldDisplayName":"Num","fieldName":"num","fieldType":"NUMBER","faildReasons":[{"fmg":"Num should not be zero.","VS":{"fmg":"notZero"}}]}]}}
+[2025-03-04T09:58:19.336] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Error data inserted in COUCH SYNC ERROR
+[2025-03-04T09:58:19.337] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Couch response error :: pfmid =41 ==>{"id":"pfm9521_2_72b9d5b85c023fd40ef4eec940c9870d","error":"forbidden","reason":{"validationFailureSet":[{"fieldDisplayName":"Num","fieldName":"num","fieldType":"NUMBER","faildReasons":[{"fmg":"Num should not be zero.","VS":{"fmg":"notZero"}}]}]}}
+[2025-03-04T09:58:19.337] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Error data inserted in COUCH SYNC ERROR
+[2025-03-04T09:58:19.338] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before Bulk update query execution
+[2025-03-04T09:58:19.449] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After Bulk update query execution
+[2025-03-04T09:58:19.449] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  CouchId and RevId updated successfully
+[2025-03-04T09:58:19.451] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  processManager :: Before couch sync error query
+[2025-03-04T09:58:19.483] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  processManager :: Updated to couch sync error table
+[2025-03-04T09:58:19.568] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  processManager :: Bulk Error data updated
+[2025-03-04T09:58:19.568] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before updating status count for completed records
+[2025-03-04T09:58:19.570] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:19.767] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:19.767] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After updating status count for completed records
+[2025-03-04T09:58:19.767] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before updating status count for error records
+[2025-03-04T09:58:19.769] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:19.939] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:19.939] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After updating status count for error records
+[2025-03-04T09:58:19.939] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four closed 1
+[2025-03-04T09:58:19.940] [DEBUG] 30_pfmTocouchLog - pfmObjectKey :: value {
+  '1': { fieldHistoryTracking: true },
+  '2': { fieldHistoryTracking: true },
+  '3': { fieldHistoryTracking: true },
+  '4': { fieldHistoryTracking: true },
+  '5': { fieldHistoryTracking: true },
+  '21': { fieldHistoryTracking: true },
+  '22': { fieldHistoryTracking: true },
+  '23': { fieldHistoryTracking: true },
+  '24': { fieldHistoryTracking: true },
+  '25': { fieldHistoryTracking: true },
+  '26': { fieldHistoryTracking: true },
+  '37': { fieldHistoryTracking: true },
+  '38': { fieldHistoryTracking: true },
+  '39': { fieldHistoryTracking: true },
+  '40': { fieldHistoryTracking: true },
+  '41': { fieldHistoryTracking: true },
+  '42': { fieldHistoryTracking: true },
+  success_count: 0,
+  isBulkStart: 'Y'
+}
+[2025-03-04T09:58:19.940] [DEBUG] 30_pfmTocouchLog - functionalFlag.length :: value 0
+[2025-03-04T09:58:19.940] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isProcessCompleted :: one true
+[2025-03-04T09:58:19.959] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:19.959] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:19.959] [DEBUG] 30_pfmTocouchLog - 53281
+[2025-03-04T09:58:19.959] [DEBUG] 30_pfmTocouchLog - pfm_csp_9521
+[2025-03-04T09:58:19.959] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:19.960] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:19.960] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9521 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9521_id LIMIT 500
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:19.992] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:19.993] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:19.993] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:20.157] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:20.158] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:20.158] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:20.331] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:20.331] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:20.331] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :3: Done
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100300332
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 1737
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:20.332] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:20.333] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:20.622] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:20.622] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53282',
+    table_name: 'pfm_csp_9522',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098734538',
+    reason: null,
+    request_status_count: '{"pfm_csp_9522":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:20.623] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:20.623] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:20.623] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:20.624] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:20.624] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:20.782] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100300782
+[2025-03-04T09:58:20.783] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:20.784] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9522.json
+[2025-03-04T09:58:20.810] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:20.810] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:20.810] [DEBUG] 30_pfmTocouchLog - 53282
+[2025-03-04T09:58:20.810] [DEBUG] 30_pfmTocouchLog - pfm_csp_9522
+[2025-03-04T09:58:20.810] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:20.810] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:20.811] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9522 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9522_id LIMIT 500
+[2025-03-04T09:58:20.879] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:20.879] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:20.879] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:20.880] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:20.880] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:20.880] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:20.881] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:20.881] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:21.022] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 5
+[2025-03-04T09:58:21.023] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:21.023] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three obtained
+[2025-03-04T09:58:21.067] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: isErrorDataExist :: Check Completed
+[2025-03-04T09:58:21.067] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection three is closed in finally
+[2025-03-04T09:58:21.067] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four obtained
+[2025-03-04T09:58:21.068] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five obtained
+[2025-03-04T09:58:21.442] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection five closed 1
+[2025-03-04T09:58:21.443] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:21.616] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:21.810] [DEBUG] 30_pfmTocouchLog - INserted into couchdb....... 53282
+[2025-03-04T09:58:21.810] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before Bulk update query execution
+[2025-03-04T09:58:22.038] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After Bulk update query execution
+[2025-03-04T09:58:22.038] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  CouchId and RevId updated successfully
+[2025-03-04T09:58:22.038] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Before updating status count for completed records
+[2025-03-04T09:58:22.039] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three obtained
+[2025-03-04T09:58:22.235] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection three closed
+[2025-03-04T09:58:22.235] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  After updating status count for completed records
+[2025-03-04T09:58:22.236] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection four closed 1
+[2025-03-04T09:58:22.236] [DEBUG] 30_pfmTocouchLog - pfmObjectKey :: value {
+  '20': { fieldHistoryTracking: true },
+  '21': { fieldHistoryTracking: true },
+  '22': { fieldHistoryTracking: true },
+  '23': { fieldHistoryTracking: true },
+  '24': { fieldHistoryTracking: true },
+  success_count: 0,
+  isBulkStart: 'Y'
+}
+[2025-03-04T09:58:22.236] [DEBUG] 30_pfmTocouchLog - functionalFlag.length :: value 0
+[2025-03-04T09:58:22.236] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isProcessCompleted :: one true
+[2025-03-04T09:58:22.256] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - 53282
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - pfm_csp_9522
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:22.256] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9522 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9522_id LIMIT 500
+[2025-03-04T09:58:22.312] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:22.312] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:22.312] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:22.313] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:22.313] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:22.313] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:22.313] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:22.313] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:22.439] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:22.440] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:22.440] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:22.683] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:22.683] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:22.683] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:22.683] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :3: Done
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100302684
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 1902
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:22.684] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:22.685] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:22.889] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:22.889] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53283',
+    table_name: 'pfm_csp_9522',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098795392',
+    reason: null,
+    request_status_count: '{"pfm_csp_9522":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:22.889] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:22.889] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:22.889] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:22.890] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:22.890] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:23.068] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100303068
+[2025-03-04T09:58:23.069] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:23.070] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9522.json
+[2025-03-04T09:58:23.085] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - 53283
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - pfm_csp_9522
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:23.086] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9522 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9522_id LIMIT 500
+[2025-03-04T09:58:23.145] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:23.145] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:23.145] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:23.146] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:23.146] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:23.146] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:23.146] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:23.147] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:23.240] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:23.241] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:23.241] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100303377
+[2025-03-04T09:58:23.377] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 309
+[2025-03-04T09:58:23.378] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:23.378] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:23.379] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:23.489] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:23.489] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53284',
+    table_name: 'pfm_csp_9541',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098795445',
+    reason: null,
+    request_status_count: '{"pfm_csp_9541":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:23.489] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:23.489] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:23.489] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:23.490] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:23.490] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:23.574] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100303574
+[2025-03-04T09:58:23.575] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:23.576] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9541.json
+[2025-03-04T09:58:23.598] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:23.598] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:23.598] [DEBUG] 30_pfmTocouchLog - 53284
+[2025-03-04T09:58:23.598] [DEBUG] 30_pfmTocouchLog - pfm_csp_9541
+[2025-03-04T09:58:23.598] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:23.599] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:23.599] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9541 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9541_id LIMIT 500
+[2025-03-04T09:58:23.666] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:23.666] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:23.666] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:23.667] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:23.667] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:23.667] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:23.668] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:23.668] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:23.819] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:23.820] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:23.820] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100303982
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 408
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:23.982] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:23.983] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:24.134] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:24.134] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53285',
+    table_name: 'pfm_csp_9521',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098795656',
+    reason: null,
+    request_status_count: '{"pfm_csp_9521":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:24.134] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:24.134] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:24.134] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:24.135] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:24.135] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:24.241] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100304241
+[2025-03-04T09:58:24.241] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:24.242] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9521.json
+[2025-03-04T09:58:24.259] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:24.259] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:24.259] [DEBUG] 30_pfmTocouchLog - 53285
+[2025-03-04T09:58:24.259] [DEBUG] 30_pfmTocouchLog - pfm_csp_9521
+[2025-03-04T09:58:24.259] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:24.260] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:24.260] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9521 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9521_id LIMIT 500
+[2025-03-04T09:58:24.306] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:24.306] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:24.306] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:24.307] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:24.307] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:24.307] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:24.307] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:24.308] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:24.433] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:24.434] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:24.434] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:24.652] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:24.652] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:24.652] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:24.652] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:24.652] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:24.653] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100304653
+[2025-03-04T09:58:24.653] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 412
+[2025-03-04T09:58:24.653] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:24.653] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:24.654] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:24.802] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:24.802] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53286',
+    table_name: 'pfm_csp_9541',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098856635',
+    reason: null,
+    request_status_count: '{"pfm_csp_9541":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:24.802] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:24.802] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:24.802] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:24.803] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:24.803] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:24.896] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100304896
+[2025-03-04T09:58:24.896] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:24.897] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9541.json
+[2025-03-04T09:58:24.916] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - 53286
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - pfm_csp_9541
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:24.917] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9541 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9541_id LIMIT 500
+[2025-03-04T09:58:24.959] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:24.959] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:24.959] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:24.960] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:24.960] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:24.960] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:24.961] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:24.961] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:25.036] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:25.037] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:25.038] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:25.245] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100305246
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 350
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:25.246] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:25.247] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:25.382] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:25.382] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53287',
+    table_name: 'pfm_csp_9522',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098856925',
+    reason: null,
+    request_status_count: '{"pfm_csp_9522":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:25.383] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:25.383] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:25.383] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:25.383] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:25.383] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:25.532] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100305532
+[2025-03-04T09:58:25.533] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:25.534] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9522.json
+[2025-03-04T09:58:25.553] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:25.553] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:25.553] [DEBUG] 30_pfmTocouchLog - 53287
+[2025-03-04T09:58:25.554] [DEBUG] 30_pfmTocouchLog - pfm_csp_9522
+[2025-03-04T09:58:25.554] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:25.554] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:25.554] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9522 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9522_id LIMIT 500
+[2025-03-04T09:58:25.604] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:25.604] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:25.605] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:25.605] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:25.605] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:25.605] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:25.606] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:25.606] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:25.705] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:25.707] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:25.707] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:25.862] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:25.862] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:25.862] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100305863
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 331
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:25.863] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:25.864] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:26.061] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:26.061] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53288',
+    table_name: 'pfm_csp_9521',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098857037',
+    reason: null,
+    request_status_count: '{"pfm_csp_9521":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:26.061] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:26.061] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:26.062] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:26.063] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:26.063] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:26.180] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100306180
+[2025-03-04T09:58:26.181] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:26.182] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9521.json
+[2025-03-04T09:58:26.198] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:26.198] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:26.198] [DEBUG] 30_pfmTocouchLog - 53288
+[2025-03-04T09:58:26.198] [DEBUG] 30_pfmTocouchLog - pfm_csp_9521
+[2025-03-04T09:58:26.198] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:26.198] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:26.199] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9521 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9521_id LIMIT 500
+[2025-03-04T09:58:26.234] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:26.234] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:26.234] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:26.235] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:26.235] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:26.235] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:26.237] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:26.237] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:26.298] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:26.299] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:26.299] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100306502
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 322
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:26.502] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:26.503] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:26.631] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:26.631] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53289',
+    table_name: 'pfm_csp_9522',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098914601',
+    reason: null,
+    request_status_count: '{"pfm_csp_9522":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:26.632] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:26.632] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:26.632] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:26.632] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:26.633] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:26.733] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100306733
+[2025-03-04T09:58:26.734] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:26.734] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9522.json
+[2025-03-04T09:58:26.750] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - 53289
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - pfm_csp_9522
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:26.750] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9522 WHERE inbound_status = 'PROCESS' ORDER BY pfm_9522_id LIMIT 500
+[2025-03-04T09:58:26.778] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: After Process get Query 0
+[2025-03-04T09:58:26.778] [DEBUG] 30_pfmTocouchLog - 0
+[2025-03-04T09:58:26.779] [DEBUG] 30_pfmTocouchLog - process records length.......
+[2025-03-04T09:58:26.779] [DEBUG] 30_pfmTocouchLog - Established connection for...... 0
+[2025-03-04T09:58:26.779] [DEBUG] 30_pfmTocouchLog - Closing Connection and calling open flow flag
+[2025-03-04T09:58:26.779] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two closed before fetching open records
+[2025-03-04T09:58:26.779] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one obtained
+[2025-03-04T09:58:26.780] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: Before executing Open request fetch query
+[2025-03-04T09:58:26.872] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Get Data :: After executing Open request fetch query 0
+[2025-03-04T09:58:26.873] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four obtained
+[2025-03-04T09:58:26.873] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection one closed in finally
+[2025-03-04T09:58:27.005] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:27.005] [DEBUG] 30_pfmTocouchLog - pfm to couch completed successfully
+[2025-03-04T09:58:27.005] [DEBUG] 30_pfmTocouchLog - *********************
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection four closed 4
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  getData :: processManager :4: Done
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationCompleted :: 1741100307006
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncExecutionTime :: 273
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetais Execution Got Completed
+[2025-03-04T09:58:27.006] [DEBUG] 30_pfmTocouchLog - Final Response :: 1 :: { status: 'Success' }
+[2025-03-04T09:58:27.007] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two obtained
+[2025-03-04T09:58:27.125] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Checking Open Request for Loader Executed 1
+[2025-03-04T09:58:27.125] [DEBUG] 30_pfmTocouchLog - Open data length :: 2 [
+  {
+    request_id: '53290',
+    table_name: 'pfm_csp_9541',
+    org_id: '30',
+    geo_location_status: 'N',
+    reference_request: null,
+    status: 'OPEN',
+    starttime: null,
+    endtime: null,
+    user_id: '421',
+    req_attempted_on: '1741098915643',
+    reason: null,
+    request_status_count: '{"pfm_csp_9541":{"OPEN":"0","PROCESS":0,"COMPLETED":0,"ERROR":0,"PROCESS_FAILURE":0}}'
+  }
+]
+[2025-03-04T09:58:27.126] [DEBUG] 30_pfmTocouchLog - check request is from Node startup false
+[2025-03-04T09:58:27.126] [DEBUG] 30_pfmTocouchLog - Process data length []
+[2025-03-04T09:58:27.126] [DEBUG] 30_pfmTocouchLog - Lenght of the Process Data is Empty []
+[2025-03-04T09:58:27.126] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one obtained
+[2025-03-04T09:58:27.127] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection two closed
+[2025-03-04T09:58:27.218] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  fetchTableDetails :: getFileData :: SyncOperationStarted :: 1741100307218
+[2025-03-04T09:58:27.218] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Meta Connection one closed
+[2025-03-04T09:58:27.220] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  readFile :: FileReadedSuccessfully :: /u01/Major_R24_Q4_Patch/BLDR_INSTALL_PATH/appbuilder/../pfmfiles/org_id-30/pfm-9541.json
+[2025-03-04T09:58:27.241] [INFO] 30_pfmTocouchLog - pfm_2_couch_service.js ::  isCompRunning ::  NO_DB_COMPACTION
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - 53290
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - pfm_csp_9541
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - ^^^^^^^^^^^^^^^^^6
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  Org Connection two obtained
+[2025-03-04T09:58:27.242] [DEBUG] 30_pfmTocouchLog - pfm_2_couch_service.js ::  get data :: Before Process get query SELECT * from pfm_csp_9541 WHERE inbo

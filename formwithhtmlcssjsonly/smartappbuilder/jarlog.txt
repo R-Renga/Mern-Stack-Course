@@ -1,0 +1,83 @@
+[2024-05-09T17:58:43.808] [DEBUG] data - ********************** - Start Time * 1715257723808 **********************
+[2024-05-09T17:58:43.810] [DEBUG] data - ********************** Initialize Read for Config JSON /u01/appconnect/BLDR_INSTALL_PATH/appbuilder/setup/config.json **********************
+[2024-05-09T17:58:43.831] [DEBUG] data - ********************** Config JSON Read Successfully **********************
+[2024-05-09T17:58:44.333] [DEBUG] data - [{"orgId":"3","url":"https://qadatauser:qadatauser57.250@dchxdqcouch1.chainsys.com:5984","userName":"qadatauser","password":"qadatauser57.250"},{"orgId":"91","url":"https://datauser:datadev135@dchxdqcouch2.chainsys.com:5984","userName":"datauser","password":"datadev135"}]
+[2024-05-09T17:58:44.335] [DEBUG] data - ********************** Process started against org: 3 **********************
+[2024-05-09T17:58:44.335] [DEBUG] data - ********************** Org: 3 - Start Couch Connection - mobile_platform **********************
+[2024-05-09T17:58:44.439] [DEBUG] data - ********************** Org: 3 - CouchDb Connection Success **********************
+[2024-05-09T17:58:44.440] [DEBUG] data - ********************** Org: 3 - Couch Connection Successful For - mobile_platform **********************
+[2024-05-09T17:58:44.440] [DEBUG] data - ********************** Org: 3 - Fetch Initiate **********************
+[2024-05-09T17:58:44.706] [DEBUG] data - ********************** Org: 3 - View document Migration Started **********************
+[2024-05-09T17:58:44.706] [DEBUG] data - ********************** Org: 3 - Master Detail View migration Started **********************
+[2024-05-09T17:58:44.720] [DEBUG] data - ********************** Org: 3 - Master Detail View migration Completed **********************
+[2024-05-09T17:58:44.720] [DEBUG] data - ********************** Org: 3 - Unique Validation View migration Started **********************
+[2024-05-09T17:58:44.805] [DEBUG] data - ********************** Org: 3 - Unique Validation View migration Completed **********************
+[2024-05-09T17:58:44.805] [DEBUG] data - ********************** Org: 3 - Composite Unique Validation View migration Started **********************
+[2024-05-09T17:58:44.807] [DEBUG] data - ********************** Org: 3 - Composite Unique Validation View migration Completed **********************
+[2024-05-09T17:58:44.807] [DEBUG] data - ********************** Org: 3 - View document Migration Completed **********************
+[2024-05-09T17:58:44.807] [DEBUG] data - ********************** Org: 3 - Platform view doc generation Started**********************
+[2024-05-09T17:58:44.940] [DEBUG] data - ********************** Org: 3 - Platform view doc generation Completed **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - view doc backup Started - mobile_platform **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/CompositeUniqueViewDoc **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/UniqueFieldViewDoc **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/masterdetailview **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/masterdetail_createdby_docid_view **********************
+[2024-05-09T17:58:44.941] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/masterdetail_createdby_view **********************
+[2024-05-09T17:58:44.942] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/type_createdby_docid_view **********************
+[2024-05-09T17:58:44.942] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/pfmObjects_view **********************
+[2024-05-09T17:58:44.942] [DEBUG] data - ********************** Org: 3 - Going to write ---> _design/pfmObjects_view_Temp **********************
+[2024-05-09T17:58:45.094] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//CompositeUniqueViewDoc_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.104] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetailview_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.104] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetail_createdby_docid_view_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.104] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetail_createdby_view_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.104] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//type_createdby_docid_view_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.105] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//pfmObjects_view_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.105] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//pfmObjects_view_Temp_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.105] [DEBUG] data - ********************** Org: 3 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//UniqueFieldViewDoc_3.json - mobile_platform **********************
+[2024-05-09T17:58:45.105] [DEBUG] data - ********************** Org: 3 - view doc backup Completed - mobile_platform **********************
+[2024-05-09T17:58:45.688] [DEBUG] data - ********************** Org: 3 - Inserting view documents into CouchDB - mobile_platform And Result - [{"ok":true,"id":"_design/pfmObjects_view","rev":"1-d01c1c4ab6dcebf75e32996ade256264"},{"ok":true,"id":"_design/pfmObjects_view_Temp","rev":"1-d01c1c4ab6dcebf75e32996ade256264"}]**********************
+[2024-05-09T17:58:45.688] [DEBUG] data - ********************** Org: 3 - Old Design Document Remove Process Start **********************
+[2024-05-09T17:58:46.786] [DEBUG] data - ********************** Org: 3 - Old Design Document Remove Process End **********************
+[2024-05-09T17:58:46.786] [DEBUG] data - ********************** View document updation completed against orgId: 3 **********************
+[2024-05-09T17:58:46.786] [DEBUG] data - ********************** Process Completed against orgId: 3 **********************
+[2024-05-09T17:58:46.786] [DEBUG] data - #######################################################################################
+[2024-05-09T17:58:46.787] [DEBUG] data - ********************** Process started against org: 91 **********************
+[2024-05-09T17:58:46.787] [DEBUG] data - ********************** Org: 91 - Start Couch Connection - mobile_platform **********************
+[2024-05-09T17:58:46.787] [DEBUG] data - ********************** Org: 91 - CouchDb Connection Success **********************
+[2024-05-09T17:58:46.787] [DEBUG] data - ********************** Org: 91 - Couch Connection Successful For - mobile_platform **********************
+[2024-05-09T17:58:46.787] [DEBUG] data - ********************** Org: 91 - Fetch Initiate **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - View document Migration Started **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - Master Detail View migration Started **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - Master Detail View migration Completed **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - Unique Validation View migration Started **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - Unique Validation View migration Completed **********************
+[2024-05-09T17:58:46.814] [DEBUG] data - ********************** Org: 91 - Composite Unique Validation View migration Started **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - Composite Unique Validation View migration Completed **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - View document Migration Completed **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - Platform view doc generation Started**********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - Platform view doc generation Completed **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - view doc backup Started - mobile_platform **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/CompositeUniqueViewDoc **********************
+[2024-05-09T17:58:46.815] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/UniqueFieldViewDoc **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/masterdetailview **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/masterdetail_createdby_docid_view **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/masterdetail_createdby_view **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/type_createdby_docid_view **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/pfmObjects_view **********************
+[2024-05-09T17:58:46.816] [DEBUG] data - ********************** Org: 91 - Going to write ---> _design/pfmObjects_view_Temp **********************
+[2024-05-09T17:58:46.831] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//CompositeUniqueViewDoc_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//UniqueFieldViewDoc_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetailview_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetail_createdby_docid_view_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//masterdetail_createdby_view_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//type_createdby_docid_view_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//pfmObjects_view_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - File created successfully - /u01/appconnect/BLDR_INSTALL_PATH/view_Docs//pfmObjects_view_Temp_91.json - mobile_platform **********************
+[2024-05-09T17:58:46.832] [DEBUG] data - ********************** Org: 91 - view doc backup Completed - mobile_platform **********************
+[2024-05-09T17:58:46.980] [DEBUG] data - ********************** Org: 91 - Inserting view documents into CouchDB - mobile_platform And Result - [{"ok":true,"id":"_design/pfmObjects_view","rev":"1-20be2f2d3f700166e5c63446182e5fa7"},{"ok":true,"id":"_design/pfmObjects_view_Temp","rev":"1-20be2f2d3f700166e5c63446182e5fa7"}]**********************
+[2024-05-09T17:58:46.981] [DEBUG] data - ********************** Org: 91 - Old Design Document Remove Process Start **********************
+[2024-05-09T17:58:47.060] [DEBUG] data - ********************** Org: 91 - Old Design Document Remove Process End **********************
+[2024-05-09T17:58:47.060] [DEBUG] data - ********************** View document updation completed against orgId: 91 **********************
+[2024-05-09T17:58:47.060] [DEBUG] data - ********************** Process Completed against orgId: 91 **********************
+[2024-05-09T17:58:47.060] [DEBUG] data - #######################################################################################
+[2024-05-09T17:58:47.061] [DEBUG] data - ********************** Org: 91 - End Time * Thu May 09 2024 17:58:47 GMT+0530 (India Standard Time) **********************  91 - 

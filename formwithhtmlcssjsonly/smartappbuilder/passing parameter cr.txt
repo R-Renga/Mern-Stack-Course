@@ -1,0 +1,193 @@
+passing parameter cr
+
+1.features - lookupcriteria,datarestriction
+2.pages - all navigate pages,execpt view page
+3.base files  - 
+4.open points
+
+
+1.new,list, - new set
+2.view action - cspfmlayoutconfiguration
+3.moreaction ,actiongroup
+
+
+
+TICKET_3207_2023
+
+CR - Passing parameters from One Layout to Another Layout
+
+CR_1083_2023 
+
+Implementation statusworkflow in multilineentry
+
+
+Jul27_university
+
+Jul27_organization
+
+Jul27_college
+
+Jul27_department
+
+Jul27_listpagetarget
+
+jul28_listpageorg
+
+jul29_listpageorg
+
+jul29_entrypage
+
+propsorgcri
+
+
+aug1_entrypage
+aug1_listpage
+
+
+
+
+designer issues
+
+1.rootpath for new and list action ,dataclone list page like view,edit action
+2.Layout params property not showing in data restriction
+3.non relational navigate not working
+4.configured set - 
+5.layout criteria - 
+6.expression set - need to be constant
+7.validation for default entry
+8.Action group not working 
+9.data clone not working
+10.a,b,c - concept new action in list page
+11.icon for layout params mapping
+
+1.new ,list,view,edit,dataclone
+
+appMbase
+1.if check
+
+jul29_entrypageorg
+
+proporgtext
+
+
+Designer Issues:
+
+1.default case
+
+
+params app1
+
+aug2_listpage
+
+"configuredLayoutParamsInfo":{
+                                "jul27organization_DUMMY$$orgname":{
+                                    "fieldName":"orgname",
+                                    "fieldDisplayName":"orgname",
+                                    "fieldValue":"",
+                                    "objectName":"jul27organization",
+                                    "isMandatory":false,
+                                    "isParamMapped":false,
+                                    "sourceRootpath":"jul27organization_DUMMY",
+                                    "targetFieldRootpath":"propsorg1"
+                                }
+                            }
+
+
+
+1.dyna changes
+2.actions new,list
+
+aug3_viewpage
+
+	
+
+
+feildclick
+ballon
+
+
+
+LIST,SEARCHLIST,ENTRY,DRAWERENTRY - RENGARAJA
+VIEW,HL VIEW(includes related list) ,DETAILVIEW   - AJAY
+
+MULTILINEENTRY,EDITENTRY,EDITDRAWERENTRY
+
+A - LIST b- - list - x
+
+AUG5_DEPARTMENTPARENT - 2
+AUG5_DEPARTMENTCHILD - ONE TO MANY FOR AUG5_DEPARTMENTPARENT - 3
+AUG5_STAFF - 1
+
+
+AUG5_COUNTRY - 4
+AUG5_ORGANIZATION - one to one for country - 5
+AUG5_UNIVERSITY - one to many for organization - 6 - primary
+AUG5_STUDENT - one to many for university - 7 - detailview,drawerentry
+AUG5_COLLEGE - one to many for student - 8
+AUG5_team - one to one for university   - 9
+AUG5_Child - one to one for AUG5_team
+
+
+all the above objects involve lookup 
+
+NON RELATIONAL OBJECTS
+
+AUG6_ORGANIZATION
+AUG6_UNIVERSITY - one to one  - organization - primary
+AUG6_STUDENT - ONE TO MANY - university   - detailview,drawerentry
+AUG6_CHILD    - ONE TO ONE- university
+AUG6_TEAM - one to one for child
+AUG5_DEPARTMENTCHILD - LOOKUP
+
+AUG6_HEADERLINE - PRIMARY - AUG6_UNIVERSITY
+AUG6_ENTRY     - PRIMARY - AUG6_UNIVERSITY
+AUG6_DRAWERENTRY - PRIMARY - AUG6_STUDENT
+AUG6_MULTILINE   - PRIMARY - AUG6_UNIVERSITY
+AUG6_EDITENTRY   - PRIMARY - AUG6_UNIVERSITY
+AUG6_EDITDRAWERENTRY - PRIMARY - AUG6_STUDENT
+AUG6_LISTPAGE
+AUG6_SEARCHLISTPAGE
+AUG6_VIEWPAGE
+AUG6_DETAILVIEW
+
+
+
+
+
+normal navigation
+popup navigation
+inline edit
+multiple params testing
+all field types testing
+mandatory testing
+
+
+
+ballon - waiting list
+Assignment
+adavance search
+related list
+row action
+
+
+
+issuelist
+1.rowaction hllist popup
+
+AUG6_LISTPAGE
+AUG6_SEARCHPAGE
+
+
+
+
+
+
+
+
+save - open
+
+
+
+
+1.entry to navigation action - only params mapping
+2.

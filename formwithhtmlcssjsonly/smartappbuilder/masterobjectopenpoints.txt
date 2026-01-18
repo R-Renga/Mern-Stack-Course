@@ -1,0 +1,69 @@
+1.On List page configuring Edit Entry page as Edit Action, Edit Entry Page Was Collapsed for First Level Header itself.
+
+appM Resource : TamilSelvan
+
+Solution :
+
+1. initialProcessForNormalNavigation , initialProcessForPopupNavigation - add await before the method calling - Editcontrollerforweb
+
+2.*ngIf="parentPopupAutoFillFlag" - add this ng if to the primary master field - ionicwebuitag
+
+
+Test Cases :
+
+1.check if we navigate from list page to edit entry layout, page will collapsed (in edit entry configure multiple header)
+
+Days : 
+
+1 Day
+QA Enable - 1/2 Day
+
+************************************************************************************************************************
+
+2.Conditional format read-only attribute is not work, when config for actions (ie, Readonly is applied outside the action but not applied to the action) 
+
+appM Resource : TamilSelvan
+
+Solution : 
+
+1.need to generate ID in button tag instead of div tag only for Conditional format read-only attribute  - ionicwebuitag
+
+Configure conditional format readonly attribute for action , speak with tamil selvan
+
+Test cases :
+
+1.Check all action working for read only attribute
+2.check action without readonly attribute
+
+Days :
+
+1 day
+QA Enable 1 Day
+
+*******************************************************************************************************************************
+
+3. In more action when configuring edit and view action for 1st level header is not working.
+
+appM - Resource
+
+Solution : need to generate relationalObjectInfo json for edit and view action in more action - listtableformation.js
+
+check view and edit action for normal flow(normal flow working fine), then do it for more action
+
+Test cases :
+
+1.check edit action working in more action
+2.check view action working in more action
+3.check normal view and edit action
+
+
+Days : 
+
+1 day
+qaenable 1 day
+
+***********************************************************************************************************************************
+
+
+
+
