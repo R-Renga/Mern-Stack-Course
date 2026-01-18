@@ -1,0 +1,13 @@
+.app{
+  text-align: center;
+}
+
+.outer{
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.inner{
+ background-color: green;
+}

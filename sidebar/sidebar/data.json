@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "public",
+    "isFolder": true,
+    "Children": [
+      {
+        "id": "2",
+        "name": "index.html",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "src",
+    "isFolder": true,
+    "Children": [
+      {
+        "id": "4",
+        "name": "components",
+        "isFolder": true,
+        "Children": [
+          {
+            "id": "5",
+            "name": "test",
+            "isFolder": true,
+            "Children": [
+              {
+                "id": "6",
+                "name": "auth",
+                "isFolder": false
+              },
+              {
+                "id": "7",
+                "name": "user",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "package.json",
+    "isFolder": false
+  }
+]

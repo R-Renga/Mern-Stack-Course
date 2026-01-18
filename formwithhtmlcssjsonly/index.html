@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Form Handling</h1>
+      <div class="container">
+        <form class="form" id="myForm">
+          <div>
+            <label>name: </label>
+            <input type="text" placeholder="enter the name" id="name" />
+          </div>
+          <div>
+            <label>address: </label>
+            <input
+              type="textarea"
+              placeholder="enter the address"
+              id="address"
+            />
+          </div>
+          <div>
+            <label>age: </label>
+            <input type="number" placeholder="enter the age" id="age" />
+          </div>
+          <div>
+            <label>dob: </label>
+            <input type="date" placeholder="enter the dob" id="dob" />
+          </div>
+          <div>
+            <label>email: </label>
+            <input type="email" placeholder="enter the email" id="email" />
+          </div>
+          <div>
+            <label>Known Languages: </label>
+            <div>
+              <input
+                type="checkbox"
+                placeholder="enter the checkbox"
+                id="english"
+                value="english"
+              />
+              <label>English:</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                placeholder="enter the checkbox"
+                id="tamil"
+                value="tamil"
+              />
+              <label>tamil:</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                placeholder="enter the checkbox"
+                id="hindi"
+                value="hindi"
+              />
+              <label>hindi:</label>
+            </div>
+          </div>
+          <div>
+            <label>gender: </label>
+            <div>
+              <input
+                type="radio"
+                placeholder="enter the radio"
+                id="male"
+                value="male"
+              />
+              <label>Male</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                placeholder="enter the radio"
+                id="female"
+                value="female"
+              />
+              <label>Female</label>
+            </div>
+          </div>
+          <div>
+            <label>Dropdown: </label>
+            <select id="Dropdown">
+              <option value="">Select an option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <div>
+            <label for="isActive">isActive: </label>
+            <input type="checkbox" id="isActive" />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

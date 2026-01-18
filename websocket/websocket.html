@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO Demo</title>
+  </head>
+  <body>
+    <h2>Socket.IO WebSocket Example</h2>
+
+    <button onclick="sendMessage()">Send Message</button>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+    <script>
+     
+      const socket = io("http://localhost:5000");
+
+      socket.on("connect", () => {
+        console.log("Connected to server:", socket.id);
+      });
+
+      socket.on("reply", (msg) => {
+        console.log("From server:", msg);
+      });
+
+      function sendMessage() {
+        socket.emit("message", "Hello Server ");
+      }
+    </script>
+  </body>
+</html>

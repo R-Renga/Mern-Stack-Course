@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-img{
+  width: 200px;
+}
+
+.product-cart{
+  width: 200px;
+  margin: 60px;
+  border: 1px solid black;
+  padding: 5px;
+}
