@@ -95,37 +95,37 @@ console.log(finalresult);
 const fs = require('fs');
 const net = require('net');
 
-console.log('Step 1: Start');
+console.log('stop');
 
 
 setTimeout(() => {
-  console.log('Step 3: TIMERS - setTimeout');
+  console.log('TIMERS - setTimeout');
 }, 0);
 
 
 fs.readFile(__filename, () => {
-  console.log('Step 4: POLL - File read');
+  console.log(' POLL - File read');
   
  
   setImmediate(() => {
-    console.log('Step 5a: CHECK - setImmediate inside I/O');
+    console.log('setImmediate inside I/O');
   });
 });
 
 
 setImmediate(() => {
-  console.log('Step 5: CHECK - setImmediate');
+  console.log(' CHECK - setImmediate');
 });
 
 
 process.nextTick(() => {
-  console.log('Step 2a: process.nextTick');
+  console.log(' process.nextTick');
 });
 
 Promise.resolve().then(() => {
-  console.log('Step 2b: Promise (Microtask)');
+  console.log(' Promise (Microtask)');
 });
 
-console.log('Step 2: End');
+console.log(' End');
 
 
