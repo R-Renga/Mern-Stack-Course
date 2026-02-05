@@ -1,23 +1,23 @@
-function anagram(s,t){
-    if(s.length !== t.length) return false;
-    let hash= {};
-    for(let i=0;i<s.length;i++){
-        if(!hash[s[i]]){
-            hash[s[i]] = 1;
-        }else{
-            hash[s[i]]++;
-        }
-    }
-    for(let j=0;j<t.length;j++){
-        if(!hash[t[j]]|| hash[t[j]] < 0 ){
-            return false
-        }else{
-            hash[t[j]]--;
-        }
-    }
-    return true;
+function isanagaram(s,t){
+   if(s.length !== t.length) return false;
+   
+   let hash = {};
+
+   for(let value of s){
+      hash[value] = (hash[value] || 0) + 1;
+   }
+
+   for(let key of t){
+      if(!hash[key] || hash[key] < 0){
+         return false
+      }else{
+         hash[key]--;
+      }
+   }
+
+   return true
+   
 }
 
-
-let result = anagram("nagra","ngara");
+const result = isanagaram("nagara","ganara");
 console.log(result);
