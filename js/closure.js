@@ -50,4 +50,20 @@ c = 1000;
 outest()
 
 
+function outest(){
+  let a = 100;
+  function outer(){
+    let b = 50;
+      function child(){
+        let c = 30;
+        return a+b+c
+      }
+      return child()
+  }
+  return outer()
+
+}
+
+console.log(outest())
+
 
