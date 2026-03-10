@@ -57,12 +57,12 @@
 
 
 function missingNumber(arr){
-    let n = arr.length;
+    let n = arr.length + 1;
     let totalSum = n*(n+1)/2;
     let partialSum = 0;
     for(let i=0;i<arr.length;i++){
         partialSum = partialSum + arr[i]
-    }
+    } 
     return totalSum - partialSum
 }
 

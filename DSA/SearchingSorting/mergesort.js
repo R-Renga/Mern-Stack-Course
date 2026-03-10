@@ -1,4 +1,4 @@
-let arr = [2,4,8,1,9]
+let arr = ["aruj","aman"]
 
 function mergeSort(arr){
     if(arr.length <= 1) return arr

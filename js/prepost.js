@@ -12,7 +12,7 @@ console.log(y); // 6
 
 
 let a = 5;
-let b = x++;
+let b = a++;
 
 console.log(a); // 6
 console.log(b); // 5

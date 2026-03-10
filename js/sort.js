@@ -4,7 +4,7 @@ arr.sort()
 
 console.log(arr);
 
-arr.sort((a,b)=>b-a);
+arr.sort((a,b)=>b-a); // ascending order
 
 console.log(arr);
 

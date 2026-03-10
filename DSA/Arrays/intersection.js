@@ -13,15 +13,19 @@ function intersectionLinked(headA,headB){
     return null;
 }
 
-function intersection(arr1,arr2){
-    let store = new Set(arr2);
-    let result = [];
-    for(let i = 0;i<arr1;i++){
-        if(store.has(arr[i])){
-            result.push(arr[i])
-            store.delete(arr[i])
+function intersection(nums1, nums2) {
+    const set1 = new Set(nums1);
+    const result = new Set();
+
+    for (let num of nums2) {
+        if (set1.has(num)) {
+            result.add(num);
         }
     }
-    return result;
+
+    return Array.from(result);
 }
 
+
+let result = intersection([2,3,4,9],[7,3,9,5]);
+console.log(result);

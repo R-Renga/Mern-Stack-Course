@@ -8,3 +8,4 @@ fs.writeFileSync("small.txt","hello",(err)=>{
     console.log(err);
     
 })
+

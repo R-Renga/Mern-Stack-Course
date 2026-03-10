@@ -1,4 +1,4 @@
-function isSubsquence(s,t){
+function isSubsequence(s,t){
     let i = 0;
     let j = 0;
     while(j < t.length){
@@ -10,4 +10,5 @@ function isSubsquence(s,t){
     return s.length === i
 }
 
-const result = isSubsquence("abc","ahbgdc")
+console.log(isSubsequence("abcde", "ace")); // true
+console.log(isSubsequence("abcde", "aec")); // false

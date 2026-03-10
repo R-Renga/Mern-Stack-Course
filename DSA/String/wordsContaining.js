@@ -4,7 +4,8 @@ function wordsContaining(words,x){
     for(let i=0;i<words.length;i++){
         for(let j=0;j<words[i].length;j++){
             if(words[i][j] === x){
-                res.push[i]
+                res.push(i);
+                break
             }
         }
     }
@@ -13,3 +14,4 @@ function wordsContaining(words,x){
 
 // Input: words = [“leet”, “code”], x = “e”
 // Output: [0, 1]
+

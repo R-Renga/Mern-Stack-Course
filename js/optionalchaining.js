@@ -11,3 +11,4 @@ const obj1 = {
 
 
 obj?.address?.pindcode?.ph
+

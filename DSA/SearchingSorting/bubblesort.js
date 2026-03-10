@@ -1,4 +1,4 @@
-let arr = [2,3,8,9,4,6];
+let arr = ["aruj","aman"];
 
 function bubble(arr){
     let n = arr.length;

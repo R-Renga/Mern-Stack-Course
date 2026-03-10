@@ -47,4 +47,4 @@ function xyz(a,b,...rest){
 console.log(rest);
 }
 
-xyz(1,2,3,4,5)
+xyz(1,2,3,4,5);

@@ -16,8 +16,6 @@ const App = () => {
   }, []);
 
   const pageLimit = 10;
-  const totalProducts = products.length;
-  const totalPages = totalProducts / pageLimit;
   const start = currentPage * pageLimit;
   const end = start + pageLimit;
 

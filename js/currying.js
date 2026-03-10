@@ -32,6 +32,20 @@ const results = binding.bind(null,10,20);
 results(90)
 
 
+function backendUrl(method){
+    return function(url){
+        return function(endpoint){
+            return method + " " + url + endpoint
+        }
+    }
+}
+
+
+let api = backendUrl("get")("http://localhost:2000");
+
+api("/users")
+api("/product")
+
 
 
 

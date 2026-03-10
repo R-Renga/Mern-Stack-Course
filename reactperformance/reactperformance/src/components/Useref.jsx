@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useState, useRef } from "react";
 
 const UseRef = () => {

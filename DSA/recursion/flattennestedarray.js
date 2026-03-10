@@ -1,16 +1,31 @@
-let a = [2,3,4,[2,3],[4],[9,8,[3]]];
+function flatten(arr) {
+    let result = [];
 
-
-
-function flattenInplace(arr){
-    for(let i=0;i<arr.length;i++){
-        if(Array.isArray(arr[i])){
-            arr.splice(i,1,...flattenInplace(arr[i]));
-            i--
+    for (let item of arr) {
+        if (Array.isArray(item)) {
+            result.push(...flatten(item));
+        } else {
+            result.push(item);
         }
     }
-    return arr
+    return result;
 }
 
-let result = flattenInplace(a);
-console.log(result);
+console.log(flatten(arr)); // [3,5,9,3,10,2]
+
+
+
+function findLargest(arr) {
+    let max = -Infinity;
+
+    for (let item of arr) {
+        if (Array.isArray(item)) {
+            max = Math.max(max, findLargest(item));
+        } else {
+            max = Math.max(max, item);
+        }
+    }
+    return max;
+}
+
+console.log(findLargest(arr)); // 10

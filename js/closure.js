@@ -49,5 +49,16 @@ function outest(){
 c = 1000;
 outest()
 
+function counter(){
+    let count = 0;
+    return function (){
+        count++
+        return count;
+    }
+}
+
+const conting = counter();
+conting()
+
 
 

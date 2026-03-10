@@ -1,27 +1,27 @@
-function rotate(arr,k){
-    if(arr.length === 0) return arr;
+  function rotate(arr,k){
+      if(arr.length === 0) return arr;
 
-    k = k % arr.length;
+      k = k % arr.length;
 
-    function reverse(start,end){
-        let left = start;
-        let right = end;
+      function reverse(start,end){
+          let left = start;
+          let right = end;
 
-        while(left < right){
-            [arr[left],arr[right]] = [arr[right],arr[left]]
-            left++;
-            right--;
-        }
-    }
+          while(left < right){
+              [arr[left],arr[right]] = [arr[right],arr[left]]
+              left++;
+              right--;
+          }
+      }
 
-    reverse(0,arr.length-1);
-    reverse(0,k-1);
-    reverse(k,arr.length-1)
-    return arr;
-}
+      reverse(0,arr.length-1);
+      reverse(0,k-1);
+      reverse(k,arr.length-1)
+      return arr;
+  }
 
-let result = rotate([1,2,3,4,5],2);
-console.log(result);
+  let result = rotate([1,2,3,4,5],2);
+  console.log(result);
 
 
 
