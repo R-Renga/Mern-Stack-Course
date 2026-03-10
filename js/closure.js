@@ -61,4 +61,37 @@ const conting = counter();
 conting()
 
 
+function outest(){
+  let a = 100;
+  function outer(){
+    let b = 50;
+      function child(){
+        let c = 30;
+        return a+b+c
+      }
+      return child()
+  }
+  return outer()
+
+}
+
+console.log(outest())
+
+
+function createCounter() {
+  let count = 0; // private variable
+
+  return function () {
+    count++;
+    return count;
+  };
+}
+
+const counter = createCounter();
+
+console.log(counter()); // 1
+console.log(counter()); // 2
+console.log(counter()); // 3
+
+
 

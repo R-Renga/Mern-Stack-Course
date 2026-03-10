@@ -1,4 +1,4 @@
-let arr = [2,3,98,34,2];
+let arr = [2,3,98,34,2,8];
 
 let arrstr = ["kurta","shoes","iphones"];
 

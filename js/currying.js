@@ -31,6 +31,20 @@ function binding(a,b,c){
 const results = binding.bind(null,10,20);
 results(90)
 
+function makeRequest(method){
+    return function(baseurl){
+        return function(endpoint){
+            return method + " " + baseurl + endpoint;
+        }
+    }
+}
+
+let Api = makeRequest("Get")("HTTP://LOCALHOST:2000");
+
+
+Api("/user")
+Api("/product")
+
 
 function backendUrl(method){
     return function(url){
